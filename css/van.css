@@ -1,0 +1,22 @@
+button{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #1883ba;
+    border-radius: 6px;
+    border: 2px solid #0016b0;
+}
+h1{
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #4fff09;
+    border: 2px solid #fbff15;
+}
+p{
+    color: violet;
+    font-size: 1cm;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mattias(jin)</title>
+    <link href="../css/matt.css" rel="stylesheet"/>
+</head>
+<body style="background-color: pink;">
+        <div>
+        <h1><i>Sorpresa!!!!!!!!!</i></h1>
+        <h1 id="text"><i></i></h1>
+        <audio controls autoplay>
+            <source src="../audio/BTS JIN AWAKE.mp3" type="audio/mp3"/>
+         </audio>
+         <marquee behavior=alternate><i>hola yo me llamo Mattias gracias por ver mi perfil</i></marquee>
+        </div>
+        <br/>
+        <div>
+         <img src="../bt21/rj.gif" height="500px"/>  
+         <img src="../imagenes/matt.jpg" height="500px"/>
+        </div>
+        <br/>
+        <div>
+            <marquee behavior=alternate><i>Pasó a paso se camina</i></marquee>
+        </div>
+        <button onclick="volver()">volver a la pagina principal</button>
+    </body>
+    
+    <script>
+        var text = document.getElementById('text');
+        text.innerHTML = prompt('hola!.. ingresa tu nombre por favor')
+        function volver(){
+        window.location="../index.html";
+    }
+     </script>
+
+</html>
