@@ -11,6 +11,13 @@ img{
     line-height: 70px;
     color: #F16F51;
 }
+#headers{
+    text-align: center;
+    height: 70px;
+    line-height: 70px;
+    color:yellow;
+}
+
 h1 {
     vertical-align: middle;
     color: while;

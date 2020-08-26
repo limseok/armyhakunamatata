@@ -1,4 +1,4 @@
-alert("muchas gracias por visitar el sitio hakuna matata");
+
 var usuarios = [
     {
         number : 1,
