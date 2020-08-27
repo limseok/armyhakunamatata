@@ -72,14 +72,14 @@ window.addEventListener('load', function(){
     for(var i = 0; i < numIntegrantes1 ; i++){
         if (lin == usuarios[i].seleccion) {
             resultsHtml1 += '<div class="person-row">\
-            <img src="bt21/'+usuarios[i].avatar+'" width="200px" height="200px"/>\
+            <img src="../bt21/'+usuarios[i].avatar+'" width="200px" height="200px"/>\
             <div class="person-info">\
                 <div><h1><i>' + usuarios[i].name +'</i></h1></div>\
                 <div>'+usuarios[i].hobby+'</div>\
             </div><button onclick="redireccionar'+usuarios[i].number+'()">ver perfil</button></div>';
         }else if(lin == usuarios[i].all){
             resultsHtml1 += '<div class="person-row">\
-        <img src="bt21/'+usuarios[i].avatar+'" width="200px" height="200px"/>\
+        <img src="../bt21/'+usuarios[i].avatar+'" width="200px" height="200px"/>\
         <div class="person-info">\
             <div><h1><i>' + usuarios[i].name +'</i></h1></div>\
             <div>'+usuarios[i].hobby+'</div></div>\
@@ -107,7 +107,7 @@ buscar2.addEventListener('click',function(){
     for (var i = 0; i < numIntegrantes2; i++) {
         if (inte == usuarios[i].name) {
             resultsHtml2 += '<div class="person-row">\
-            <img src="bt21/'+usuarios[i].avatar+'" width="200px" height="200px"/>\
+            <img src="../bt21/'+usuarios[i].avatar+'" width="200px" height="200px"/>\
             <div class="person-info">\
                 <div>' + usuarios[i].name +'</div>\
                 <div>'+usuarios[i].hobby+'</div>\
@@ -122,30 +122,30 @@ buscar2.addEventListener('click',function(){
 );
 });
 function redireccionar1(){
-    window.location="direct/cri.html";
+    window.location="cri.html";
 }
 function redireccionar2(){
-    window.location="direct/ram.html";
+    window.location="ram.html";
 }
 function redireccionar3(){
-    window.location="direct/kev.html";
+    window.location="kev.html";
 }
 function redireccionar4(){
-    window.location="direct/lim.html";
+    window.location="lim.html";
 }
 function redireccionar5(){
-    window.location="direct/mar.html";
+    window.location="mar.html";
 }
 function redireccionar6(){
-    window.location="direct/matt.html";
+    window.location="matt.html";
 }
 function redireccionar7(){
-    window.location="direct/yam.html";
+    window.location="yam.html";
 }
 function van(){
-    window.location="direct/van.html";
+    window.location="van.html";
 }
 function presentacion(){
-    window.location="direct/video.html"
+    window.location="video.html"
 }
 

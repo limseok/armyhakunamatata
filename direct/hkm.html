@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HAKUNA MATATA</title>
+    <link href="../css/estilos.css" rel="stylesheet">
+</head>
+<body background="../fondo.jpg">
+    <div id="header"><h1>HAKUNA MATATA</h1></div>
+    <button onclick="presentacion()">presentacion</button>
+    <div id="main">
+        <div class="row">
+            <div class="row">
+                <label>Selecciona</label>
+                <select id="selecciona">
+                    <option value="rl">Rap Line</option>
+                    <option value="vl">Vocal Line</option>
+                    <option value="t">Todos</option>
+                </select>
+            </div>
+            <div class="row">
+                <button id="buscar1">Buscar</button>
+            </div>
+            <div class="row">
+                <label>integrantes</label>
+                <select id="integrantes">
+                <option id="sukha" value="Cristian(Suga)">Cristian(Suga)</option>
+                <option value="Cristian(Rap Monster)">Cristian(Rap Monster)</option>
+                <option value="Kevin(kook)">Kevin(kook)</option>
+                <option value="Limber(J-hope)">Limber(J-hope)</option>
+                <option value="Marco(Jimin)">Marco(Jimin)</option>
+                <option value="Mattias(Jin)">Mattias(Jin)</option>
+                <option value="Yamil(V)">Yamil(V)</option>
+                </select>
+            </div>
+            <div class="row">
+                <button id="buscar2">Buscar</button>
+            </div>
+            <div class="row">
+                <button onclick="van()">v(x)a(o)n</button>
+            </div>
+            <div class="row">
+                <button onclick="this.innerHTML='aun no disponible'">bonus</button>
+            </div>
+        </div>
+        <div id="resultados1">
+            
+        </div>
+      
+        
+    </div>
+    <audio controls autoplay>
+        <source src="../audio/BTS TWO THREE.mp3" type="audio/mp3" />
+    </audio>
+    <div style="text-align: center;">
+        <video width=720  height=720 controls poster="../imagenes/pucho.png">
+            <source src="../audio/videolucho.mkv" type="video/mp4">
+              </video>
+            </div>
+    <script src="../js/hkm.js"></script>
+</body>
+</html>
