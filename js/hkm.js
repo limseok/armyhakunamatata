@@ -146,6 +146,8 @@ function van(){
     window.location="van.html";
 }
 function presentacion(){
-    window.location="video.html"
+    window.location="video.html";
 }
-
+function BONUS(){
+    window.location="bonus.html";
+}
